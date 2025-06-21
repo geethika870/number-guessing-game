@@ -1,0 +1,48 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+#gameContainer {
+  background-color: rgba(0,0,0,0.3);
+  padding: 30px;
+  border-radius: 15px;
+  display: inline-block;
+}
+input[type=number] {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  margin: 5px;
+  width: 100px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #ff4081;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #e91e63;
+}
+#rules {
+  font-size: 20px;
+  margin: 15px 0;
+}
+#feedback {
+  font-size: 22px;
+  margin-top: 20px;
+  min-height: 30px;
+  font-weight: bold;
+}
